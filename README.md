@@ -6,6 +6,7 @@ To analyze and gain insights into the purchasing behavior of ecommerce customers
 
 ## Links 
 Datasets : https://github.com/thariniselvakumar/customer_purchase_behaviour-insights/blob/main/shopping_trends.csv
+
 SQL quries : https://github.com/thariniselvakumar/customer_purchase_behaviour-insights/blob/main/ecommerce.sql
 
 ### Database  Creation
