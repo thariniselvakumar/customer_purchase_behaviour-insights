@@ -1,15 +1,19 @@
 # Ecommerce Behavior Analysis
 
-### DATABASE CREATION
+## Objective:
+
+To analyze and gain insights into the purchasing behavior of ecommerce customers, identifying trends, patterns, and correlations that can inform data-driven marketing strategies and optimize customer experiences.
+
+### Database  Creation
 ```
 CREATE database ecommerce;
 
 USE ecommerce;
 SELECT * FROM shopping_trends;
 ```
-## DATA CLEANING
+## Data cleaning
 
-## --1 -- CHECKING DUPLICATES
+## --1 -- Checking duplicates
 ```
 SELECT customer_id ,COUNT(*)
 FROM shopping_trends
@@ -17,18 +21,18 @@ GROUP BY Customer_ID
 HAVING COUNT(*)>1
 ```
 
-## --2 -- CHECKING NULL VALUES 
+## --2 -- Checking null values 
 ```
 SELECT item_purchased ,purchase_amount_USD --Choosing the neccessary columns 
 FROM shopping_trends
 WHERE Item_Purchased IS NULL AND Purchase_Amount_USD IS NULL;
 ```
 
-## --3 --UPDATING FORMATS 
+## --3 --Upating Formats 
 ```
 ALTER TABLE shopping_trends ALTER COLUMN review_rating DECIMAL(10,1)
 ```
-## --DATA EXPLORATION AND FINDINGS--
+## --Data exploration and findings
 ```
 SELECT * FROM shopping_trends;
 ```
