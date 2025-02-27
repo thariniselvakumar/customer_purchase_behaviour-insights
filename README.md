@@ -4,6 +4,10 @@
 
 To analyze and gain insights into the purchasing behavior of ecommerce customers, identifying trends, patterns, and correlations that can inform data-driven marketing strategies and optimize customer experiences.
 
+## Links 
+Datasets :
+SQL quries :
+
 ### Database  Creation
 ```
 CREATE database ecommerce;
