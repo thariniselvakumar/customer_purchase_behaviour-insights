@@ -5,8 +5,8 @@
 To analyze and gain insights into the purchasing behavior of ecommerce customers, identifying trends, patterns, and correlations that can inform data-driven marketing strategies and optimize customer experiences.
 
 ## Links 
-Datasets :
-SQL quries :
+Datasets : https://github.com/thariniselvakumar/customer_purchase_behaviour-insights/blob/main/shopping_trends.csv
+SQL quries : https://github.com/thariniselvakumar/customer_purchase_behaviour-insights/blob/main/ecommerce.sql
 
 ### Database  Creation
 ```
